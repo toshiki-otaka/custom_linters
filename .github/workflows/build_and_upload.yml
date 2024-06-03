@@ -27,5 +27,5 @@ jobs:
     - name: Upload .so file
       uses: actions/upload-artifact@v2
       with:
-        name: plugin.so
-        path: build/plugin.so
+        name: custom_linters.so
+        path: build/custom_linters.so
